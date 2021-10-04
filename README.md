@@ -19,8 +19,10 @@ Cart (/cart) - cart.jsp
 
 ![image](https://user-images.githubusercontent.com/42578147/135932454-8aba3519-7f95-4d79-a6c5-9133dfa7a23e.png)
 
-Data on products conceivably stored in a "database". Relational model for the database:
-Product (pno, pName, priceInEuro, imageFile)
+# Data on products conceivably stored in a "database". Relational model for the database:
+
+Product (pno, pName, priceInEuro, imageFile) 
+
 Description (pno, langCode, text), FK pno -> product.pno
 
 
